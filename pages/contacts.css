@@ -4,43 +4,58 @@
 @import url(../blocks/header/__background/header__background.css);
 @import url(../blocks/header/__background/_title/header__background_title.css);
 @import url(../blocks/header/__background/_subtitle/header__background_subtitle.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation/_logo/header__navigation_logo.css);
+@import url(../blocks/header/__navigation/_links/header__navigation_links.css);
+@import url(../blocks/header/__navigation/_link/header__navigation_link.css);
 @import url(../blocks/main/main.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-.header__navigation{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
+.contacts{
+    margin-top: 50px;
 }
 
-.header__navigation_logo{
-
+.contacts__title{
+    text-align: center;
+    margin: 0 0 40px;
 }
 
-.header__navigation_links{
-   /* margin-left: 100px;*/
+.contacts__text{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.2;
 }
 
-.header__navigation_link{
+.contacts__link{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(153, 153, 153);
-    font-size: 20px;
-    line-height: 1.15;
+    font-size: 22px;
+    line-height: 1.2;
     font-weight: normal;
     transition: opacity 0.3s ease-in;
-    border-right: 1px solid black;
-    margin-right: 10px;
-    padding-right: 12px;
 }
 
-.header__navigation_link:hover{
+.contacts__link:hover{
     opacity: 0.8;
     text-decoration: underline;
 }
 
-.header__navigation_link:last-child{
-    border:none;
+.contacts__map{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
 }
+
+
+
+
+
