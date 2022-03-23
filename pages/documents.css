@@ -9,6 +9,23 @@
 @import url(../blocks/header/__navigation/_links/header__navigation_links.css);
 @import url(../blocks/header/__navigation/_link/header__navigation_link.css);
 @import url(../blocks/main/main.css);
+@import url(../blocks/docs/docs.css);
+@import url(../blocks/docs/__card/docs__card.css);
+@import url(../blocks/docs/__img/docs__img.css);
+@import url(../blocks/docs/__img/_pdf/docs__img_pdf.css);
+@import url(../blocks/docs/__img/_jpg/docs__img_jpg.css);
+@import url(../blocks/docs/__name/docs__name.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+
+
+
+
+
+
+
+
+
