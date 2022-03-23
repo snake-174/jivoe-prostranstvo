@@ -19,4 +19,23 @@
 
 .header__navigation_link:last-child{
     border:none;
+    margin-right: 0;
+}
+
+@media(max-width: 1220px){
+    .header__navigation_link{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 530px){
+    .header__navigation_link{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 460px){
+    .header__navigation_link{
+        font-size: 12px;
+    }
 }

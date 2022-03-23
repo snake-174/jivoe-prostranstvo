@@ -4,3 +4,10 @@
     font-size: 17px;
     line-height: 1.15;
 }
+
+@media(max-width: 460px){
+    .footer__contacts{
+        text-align: center;
+        font-size: 12px;
+    }
+}

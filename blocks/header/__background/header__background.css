@@ -12,9 +12,16 @@
     margin-bottom: 70px;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1220px){
     .header__background{
         height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 930px){
+    .header__background{
+        margin-bottom: 25px;
     }
 }
 
